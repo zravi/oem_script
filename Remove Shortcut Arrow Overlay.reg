@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; This file removes the shortcut arrow overlay
+; Full tutorial: https://windowsloop.com/remove-shortcut-arrow-on-shortcuts/
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons]
+"29"="%windir%\\System32\\shell32.dll,-50"
+
