@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; 
+; execute as admin
+; 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation]
+"Manufacturer"="MANUFACTURER_NAME"
+"Logo"="c:\\windows\\system32\\oemlogo.bmp"
+"SupportPhone"="PHONE_NUMBER"
+"SupportHours"="SUPPORT_HOURS"
+"SupportURL"="SUPPORT_URL"
